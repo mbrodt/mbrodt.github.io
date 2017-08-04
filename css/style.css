@@ -1,0 +1,147 @@
+
+body {
+/*	background: #F2E9E4;*/
+	/* fallback for old browsers */
+	/*background: -webkit-linear-gradient(to left, #ef32d9, #89fffd);*/
+	/* Chrome 10-25, Safari 5.1-6 */
+	/*background: linear-gradient(to left, #ef32d9, #89fffd);*/
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/*	height: 100%;
+	margin: 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;*/
+	margin-top:100px;
+}
+
+h1, h2, h3, h4, h5{
+	color:#4A4E69 !important;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.modal-body:not(.two-col) { padding:0px }
+.glyphicon { margin-right:5px; }
+.glyphicon-new-window { margin-left:5px; }
+.modal-body .radio,.modal-body .checkbox {margin-top: 0px;margin-bottom: 0px;}
+.modal-body .list-group {margin-bottom: 0;}
+.margin-bottom-none { margin-bottom: 0; }
+.modal-footer {margin-top: 0px;}
+
+.modal-footer .btn+.btn {
+    margin-left: 0px;
+}
+.progress {
+    margin-right: 10px;
+}
+
+p {
+	color: #4A4E69;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.profile-pic {
+	box-shadow: 0px 4px 6px 2px lightgrey;
+  border-radius: 50%
+}
+
+.m-t-1 {
+	margin-top:1em;
+}
+
+.p-t-1 {
+	padding-top:1em;
+}
+
+
+.about-me {
+	margin-top:25px;
+}
+
+nav {
+	display: flex;
+}
+
+.navbar-default {
+	background-color: #93ca44;
+	border: none;
+	border-radius:0;
+}
+
+.navbar-text a.navbar-link {
+	color:white;
+	font-size: 1.3em;
+	font-weight: bolder;
+}
+
+.row-grey {
+	background-color: lightgrey;
+	-webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
+	clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
+	padding: 65px 10px;
+}
+
+.row-white {
+	/*background-color: lightgrey;*/
+	/*-webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);*/
+	/*clip-path: polygon(0 8%, 100% 4%, 100% 96%, 0% 100%);*/
+	padding: 65px 10px;
+}
+
+.row-footer {
+/*	background-color: lightgrey;
+	-webkit-clip-path: polygon(0 0%, 100% 4%, 100% 100%, 0% 100%);
+	clip-path: polygon(0 0%, 100% 4%, 100% 100%, 0% 100%);*/
+	padding: 65px 10px;
+}
+
+.work-item-row {
+	/*padding: 10% 0;*/
+}
+
+.row-tools {
+  padding: 50px 0;
+}
+
+.linkedin-btn {
+	box-shadow: 0px 2px 5px 1px lightgrey;
+	padding: 12px;
+	border-radius: 5px;
+}
+
+.btn-launch {
+	width:100%;
+	max-width:200px;
+	background-color: #549657;
+	color:white;
+	box-shadow: 0px 2px 5px 1px darkgrey;
+}
+
+.btn-launch:hover,
+.btn-launch:focus {
+	color: white;
+	background: #3d7140;
+}
+
+.img-width {
+	width: 600px;
+	padding-left:;
+}
+
+.paddingtop {
+	padding-top: 12px;
+}
+
+.paddinglogos {
+	padding-top: 50px;
+}
+
+.techlogo {
+	width: 50px;
+	padding-right: 10px;
+}
+
+.widelogo {
+	width: 100px;
+	padding-right: 10px;
+}
