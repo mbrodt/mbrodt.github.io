@@ -95,8 +95,21 @@ nav {
 	padding: 65px 10px;
 }
 
+.aligncenter {
+	vertical-align:middle;
+}
+
 .work-item-row {
 	/*padding: 10% 0;*/
+}
+.test {
+	display:flex;
+	align-items:center;
+}
+.stars {
+	width: 30%;
+	vertical-align: middle;
+	padding-right: 50px;
 }
 
 .row-tools {
@@ -125,7 +138,7 @@ nav {
 
 .img-width {
 	width: 600px;
-	padding-left:;
+	/* padding-left:; */
 }
 
 .paddingtop {
